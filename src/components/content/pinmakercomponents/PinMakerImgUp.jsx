@@ -84,7 +84,7 @@ const PinMakerImgUp = ( {imgAsset, setImgAsset} ) => {
               ) : (
                 <label className='flex-grow cursor-pointer'
                        htmlFor='image-upload'>
-                  <div className='border border-dashed border-black p-1'>
+                  <div className='border-t border-b border-dashed border-black p-1'>
                     <div className='flex flex-col items-center w-fit m-auto text-center'>
                       {!wrongImgFormat ? 
                         (<><AiOutlineCloudUpload className='text-2xl'/>Click to Upload Image</>) : 
