@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font: 'Georgia', serif;
+}
+
+.hide-scrollbar {
+    overflow: hidden;
+}
+
+.my-masonry-grid_column {
+    background-clip: padding-box;
+}
+
