@@ -27,7 +27,7 @@ const Home = () => {
   }, []);
 
   return (
-  <div className='flex bg-gray-50 h-screen md:h-auto md:flex-row flex-col w-screen'>
+  <div className='flex bg-gray-50 h-screen md:h-auto md:flex-row flex-col w-full'>
 
     {/*Sidebar for large screens */}
     <div className='hidden md:flex md:h-screen sticky top-0'>
