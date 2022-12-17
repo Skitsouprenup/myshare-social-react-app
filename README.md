@@ -1,6 +1,6 @@
 # myshare-social-react-app
 My simple social media app created using React.  
-View demo video in this [link](https://youtu.be/pnMt0YEPyAM).
+View demo video in this [link](https://youtu.be/NI8sUjzLVhE).
 
 Technologies used:  
 [Tailwind](https://tailwindcss.com/)  
