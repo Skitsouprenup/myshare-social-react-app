@@ -1,5 +1,5 @@
 # myshare-social-react-app
-My simple social media app created using React.  
+My simple social media app created using React. This react application is responsive and mobile-ready.  
 View demo video in this [link](https://youtu.be/NI8sUjzLVhE).
 
 Technologies used:  
