@@ -14,7 +14,7 @@ export const DisplayBanner = ({imgPreview, bannerHeight}) => {
     return <img src={imgPreview} alt='Banner'
                 style={{minHeight: bannerHeight, maxHeight: bannerHeight,
                         width: '100%'}}/>;
-  };
+};
 
 const UploadUserBannerUI = ({ user, bannerHeight }) => {
     const[hoverState, setHoverState] = useState(false);

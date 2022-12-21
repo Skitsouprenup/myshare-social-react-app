@@ -8,6 +8,8 @@ import './index.css';
 const container = document.getElementById('app-root');
 const root = createRoot(container);
 root.render(
-<BrowserRouter>
-    <App />
-</BrowserRouter>);
+<React.StrictMode>
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+</React.StrictMode>);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 import { AiOutlineCloudUpload } from 'react-icons/ai';
 
@@ -7,11 +7,11 @@ import { supportedImageFormat } from '../../../scripts/supportedimg';
 
 import { RiDeleteBin2Fill } from 'react-icons/ri';
 
-export const DisplayImage = memo(({imgPreview, imageLoaded}) => {
+export const DisplayImage = ({imgPreview, imageLoaded}) => {
   return <img src={imgPreview} 
               alt='uploaded-image'
               onLoad={imageLoaded} />;
-});
+};
 
 const PinMakerImgUp = ( {imgAsset, setImgAsset} ) => {
   const [loading, setLoading] = useState(false);

@@ -65,7 +65,7 @@ const Feed = ({categoryLink = false}) => {
   return (
     <div className='flex w-full bg-gray-200 border-black'>
       <FeedContext.Provider value={{setReloadFeed}}>
-        {pins.length > 0 ? 
+        {(pins?.length > 0 && pins !== null) ? 
          (<DisplayPins pins={pins}/>) : 
          (<div className='flex items-center justify-center w-full'>
             <h1 className='font-bold text-gray-500 w-fit h-fit text-4xl'>
